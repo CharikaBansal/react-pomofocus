@@ -1,0 +1,38 @@
+/* App.css */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #ba4949;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+.App.short-break {
+  background-color: #38858a; 
+}
+.App.long-break {
+  background-color: #476b68; 
+}
+.timer-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 6px;
+  width: 480px;
+}
+
+/* Add this to your existing styles */
+.time-display {
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0;
+}
+.long-break .control-button.primary-button {
+  color: #476b68;
+}
+
+.long-break .timer-container {
+  background-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,41 @@
+/* styles/TimerControls.css */
+.timer-controls {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.control-button {
+  border: none;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.primary-button {
+  background-color: white;
+  color: #ba4949;
+  box-shadow: rgb(235 235 235) 0px 6px 0px;
+}
+
+.secondary-button {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 6px 0px;
+}
+
+.control-button:hover {
+  transform: translateY(2px);
+}
+
+.primary-button:hover {
+  box-shadow: rgb(235 235 235) 0px 4px 0px;
+}
+
+.secondary-button:hover {
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 4px 0px;
+}
