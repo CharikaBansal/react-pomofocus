@@ -16,25 +16,6 @@ A React-based clone of Pomofocus.io, implementing the Pomodoro Technique timer a
 - Reset functionality
 - Persistent timer state across browser tabs
 
-## Project Structure
-
-src/
-├── components/
-│ ├── Timer.js
-│ ├── TimerControls.js
-│ └── TabSelector.js
-├── styles/
-│ ├── Timer.css
-│ ├── TimerControls.css
-│ └── TabSelector.css
-└── sounds/
-├── alarm-bell.mp3
-├── alarm-digital.mp3
-├── alarm-kitchen.mp3
-├── button-press.wav
-├── ticking-fast.mp3
-└── ticking-slow.mp3
-
 
 ## Technologies Used
 
