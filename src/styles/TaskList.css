@@ -150,35 +150,62 @@
     top: 100%;
     right: 0;
     background: white;
-    border-radius: 4px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    min-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    min-width: 240px;
     z-index: 1000;
+    padding: 8px 0;
+    animation: fadeIn 0.2s ease-in-out;
   }
   
   .menu-item {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 8px 15px;
+    gap: 12px;
+    padding: 10px 16px;
     width: 100%;
     text-align: left;
     border: none;
     background: none;
     cursor: pointer;
     color: #333;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
   }
   
   .menu-item.locked {
     opacity: 0.6;
     cursor: not-allowed;
   }
-  
+
+  .menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .menu-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+  }
   .lock-icon {
     margin-left: auto;
     font-size: 12px;
+    opacity: 0.7;
   }
   
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   /* Task Items */
   .task-item {
     background: rgba(255, 255, 255, 0.1);
