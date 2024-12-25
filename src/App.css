@@ -36,3 +36,31 @@
 .long-break .timer-container {
   background-color: rgba(255, 255, 255, 0.1);
 }
+.timer-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 6px;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tasks-section {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tasks-section h2 {
+  color: white;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+}

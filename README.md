@@ -15,6 +15,8 @@ A React-based clone of Pomofocus.io, implementing the Pomodoro Technique timer a
   - Timer completion alerts
 - Reset functionality
 - Persistent timer state across browser tabs
+- Task management with estimated pomodoros
+- Progress tracking for tasks
 
 
 ## Technologies Used
@@ -46,3 +48,8 @@ This project was bootstrapped with Create React App and includes:
 - Custom hooks for sound effects
 - CSS modules for styling
 
+## Usage
+1. Select timer mode (Pomodoro/Short Break/Long Break)
+2. Add tasks with estimated pomodoro counts
+3. Start timer and focus on your task
+4. Take breaks when timer indicates

@@ -5,6 +5,7 @@ import Timer from './components/Timer';
 import TimerControls from './components/TimerControls';
 import TabSelector from './components/TabSelector';
 import './App.css';
+import TaskList from './components/TaskList';
 
 function App() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -116,9 +117,16 @@ function App() {
           onStartPause={handleStartPause}
           onReset={handleReset}
         />
+        <div className="tasks-section">
+          <TaskList 
+            activeTab={activeTab}
+            isRunning={isRunning}
+            time={time}
+          />
+        </div>
       </div>
     </div>
-  );
+  );  
 }
 
 export default App;
